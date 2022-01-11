@@ -1,0 +1,148 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.top-container {
+  background-image: url("../images/munte.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+
+.middle-container {}
+
+.bottom-container {
+  background-color: #876445;
+  margin: 0;
+  padding-top: 50px;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Marriweather', serif;
+  background-color: #F4DFBA;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 90px;
+  margin: 0 auto 0 auto;
+  font-family: 'Waterfall', cursive;
+  color: #CA965C;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.500rem;
+  color: #CA965C;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #865439;
+}
+
+p {
+  color: #333;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.profile-picture {
+  border-radius: 50%;
+}
+
+a {
+  color: #865439;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.web-developer {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.nail {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+
+hr {
+  width: 6%;
+  border-style: dotted none none none;
+  border-color: #876445;
+  border-width: 7px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.profile-picture {
+  margin-top: 50px;
+}
+
+.eu {
+  font-size: 0.80rem;
+  margin: 30px auto 0 auto;
+}
+
+.footer-link {
+  margin: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.button {
+  margin-bottom: 40px;
+  margin-top: 20px;
+  background-color: #EEC373;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  font-family: 'Oswald', sans-serif;
+}
+
+.button:hover {
+  background-color: #DB6B97;
+  /* Green */
+  color: black;
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.desk {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+}
+
+.paragraf {
+  width: 35%;
+  margin: auto;
+}
